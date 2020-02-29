@@ -1,0 +1,58 @@
+{
+  "@context": "http://iiif.io/api/image/2/context.json",
+  "@id": "https://example.com/iiif/apple",
+  "profile": [
+    "http://iiif.io/api/image/2/level0.json",
+    {
+      "formats": [
+        "jpg"
+      ],
+      "qualities": [
+        "default"
+      ]
+    }
+  ],
+  "protocol": "http://iiif.io/api/image",
+  "sizes": [
+    {
+      "width": 16,
+      "height": "full"
+    },
+    {
+      "width": 32,
+      "height": "full"
+    },
+    {
+      "width": 64,
+      "height": "full"
+    },
+    {
+      "width": 128,
+      "height": "full"
+    },
+    {
+      "width": 256,
+      "height": "full"
+    },
+    {
+      "width": 512,
+      "height": "full"
+    },
+    {
+      "width": 1024,
+      "height": "full"
+    }
+  ],
+  "tiles": [
+    {
+      "scaleFactors": [
+        1,
+        2,
+        4
+      ],
+      "width": 256
+    }
+  ],
+  "width": 1667,
+  "height": 5368
+}
