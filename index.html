@@ -14,6 +14,32 @@
 
  <body>
 <div id="openseadragon1" style="width: 75%; height: 800px; margin: 0 auto;"></div>
+
+<div>
+	
+<h1>Smithsonian Data Fun</h1>
+	<p>I futzed with the code that Matt Miller developed, and all I got was this dumb word cloud.</p>
+<p>What I did was:</p>
+<ul>
+<li>run <a href="https://github.com/thisismattmiller/smithsonian-open-access">Matt's code</a> to parse the 11M Smithsonian open metadata records</li>
+<li>extracted all the names found in all the records using <a href="https://pandas.pydata.org/" rel="nofollow">pandas</a> (but <a href="https://stedolan.github.io/jq/" rel="nofollow">jq</a> is also super fun and useful to use with the output of Matt's scripts)</li>
+<li>then I used Matt's <a href="https://thisismattmiller.com/img/post_si_castle.png" rel="nofollow">fanart drawing of the right tower of the Smithsonian Castle</a> as an image mask for a word cloud</li>
+<li>then I made a static IIIF representation of that image</li>
+<li>then I added it to Github and then I tweeted about it, and that's how we got here.</li>
+</ul>
+<p>But seriously, here are some fun links of Matt's work and others that I was able to sew together in a few hours to fun effect:</p>
+<ul>
+<li><a href="https://www.si.edu/openaccess" rel="nofollow">The Smithsonian Open Access release that started it all</a></li>
+<li><a href="https://twitter.com/thisismmiller/status/1233406325943668738" rel="nofollow">Matt's Tweet about his data analysis and data viz efforts that started it all more specifically</a></li>
+<li><a href="https://thisismattmiller.com/post/smithsonian-open-access-data-release/" rel="nofollow">Matt's blog post about his process and viz examples, also including fun easter eggs at the bottom which is where I got the fanart image of the Smithsonian Castle</a></li>
+<li><a href="https://github.com/amueller/word_cloud">The Python wordcloud library I used</a></li>
+<li><a href="https://github.com/zimeon/iiif/tree/master/demo-static">The static IIIF tile generator I used</a></li>
+<li><a href="https://hadro.github.io/smithsonian_data_fun/" rel="nofollow">My wordcloud as IIIF</a></li>
+</ul>
+
+</div>
+
+
 <script src="./openseadragon-bin-2.4.1/openseadragon.min.js"></script>
 <script type="text/javascript">
     var viewer = OpenSeadragon({
