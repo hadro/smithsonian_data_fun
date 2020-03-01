@@ -1,6 +1,7 @@
 {
   "@context": "http://iiif.io/api/image/2/context.json",
-  "@id": "https://example.com/iiif/apple",
+  "@id": "matts_smithsonian_tower_huge",
+  "height": 10306,
   "profile": [
     "http://iiif.io/api/image/2/level0.json",
     {
@@ -15,44 +16,50 @@
   "protocol": "http://iiif.io/api/image",
   "sizes": [
     {
-      "width": 16,
-      "height": "full"
+      "height": 322,
+      "width": 100
     },
     {
-      "width": 32,
-      "height": "full"
+      "height": 161,
+      "width": 50
     },
     {
-      "width": 64,
-      "height": "full"
+      "height": 81,
+      "width": 25
     },
     {
-      "width": 128,
-      "height": "full"
+      "height": 40,
+      "width": 13
     },
     {
-      "width": 256,
-      "height": "full"
+      "height": 20,
+      "width": 6
     },
     {
-      "width": 512,
-      "height": "full"
+      "height": 10,
+      "width": 3
     },
     {
-      "width": 1024,
-      "height": "full"
+      "height": 5,
+      "width": 2
+    },
+    {
+      "height": 3,
+      "width": 1
     }
   ],
   "tiles": [
     {
+      "height": 512,
       "scaleFactors": [
         1,
         2,
-        4
+        4,
+        8,
+        16
       ],
-      "width": 256
+      "width": 512
     }
   ],
-  "width": 1667,
-  "height": 5368
+  "width": 3200
 }
