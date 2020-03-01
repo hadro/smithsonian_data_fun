@@ -16,4 +16,4 @@ But seriously, here are some fun links of Matt's work and others that I was able
 - [Matt's blog post about his process and viz examples, also including fun easter eggs at the bottom which is where I got the fanart image of the Smithsonian Castle](https://thisismattmiller.com/post/smithsonian-open-access-data-release/)
 - [The Python wordcloud library I used](https://github.com/amueller/word_cloud)
 - [The static IIIF tile generator I used](https://github.com/zimeon/iiif/tree/master/demo-static)
-- [My wordcloud as IIIF](https://hadro.github.io/smithsonian_data/)
+- [My wordcloud as IIIF](https://hadro.github.io/smithsonian_data_fun/)
